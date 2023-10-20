@@ -1,0 +1,99 @@
+@media screen and (min-width: 900px) {
+body {
+margin: 0;
+padding: 0;
+}
+#Vänsterkolumn {
+float: left;
+
+width: 20%;
+height: 1100px;
+
+background: black;
+border-right: 1px solid #000;
+color:white;
+text-align: center;
+position: relative;
+top: -22px; 
+}
+#huvudkolumn {
+text-align: center;
+float: left;
+width: 70%;
+min-height: 350px;
+padding: 0 2% 2% 2%;
+text-align: left;
+text-align: center;
+}
+#Test {
+  text-align: center;
+}
+img {
+  max-width: 80%;
+  height:150px;
+  }
+  a:link, a:visited {
+    
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:900px) {
+  /* Här placeras de CSS-regler vi vill ska
+     vara aktiva när webbläsarfönstret är 
+     mindre än 480 pixlar */
+  footer {
+      float: none;
+      width: 100%;
+      margin: 0;
+      text-align: center;
+  }
+  #content{
+    text-align: center;
+  }
+  #Vänsterkolumn {
+    width: 100%; 
+    height: 480px;
+    background: black;
+    border-right: 1px solid #000;
+    color:white;
+    text-align: center;
+    position: relative;
+ 
+    }
+    a:link, a:visited {
+    
+      width: 300px;
+      background-color: white;
+      color: black;
+      border: 2px solid green;
+      padding: 10px 20px;
+  
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+  
+    }
+  img {
+    max-width: 80%;
+    height:150px;
+    }
+
+}

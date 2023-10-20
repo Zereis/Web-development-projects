@@ -1,0 +1,42 @@
+header {
+  border: 1px solid black;
+  width: 1500px;
+}
+nav {
+float: top;
+width: 1500px;
+
+border: 1px solid black;
+}
+a {
+  margin-right: 50px;
+}
+aside {
+height: 900px;
+width: 1500px;
+border: 1px solid black;
+text-align: center;
+}
+footer {
+float: left;
+height: 50px;
+width: 1500px;
+border: 1px solid black;
+text-align: center;
+}
+.myDiv {
+
+  display: inline-block;
+  width: 23%;
+  height: 20%;
+  border: 1px solid black;
+  float:right;
+}
+p {
+margin:right;
+}
+.input{
+
+  text-align: center;
+  
+  }

@@ -1,0 +1,73 @@
+body {
+  background-color: powderblue;
+}
+
+h1 {
+  font-family:arial; 
+  color:black;
+  margin-left: 20px;
+text-align: center;
+}
+h2 {
+  color:black;
+  text-align:center;
+}
+h4 {
+  color:white;
+  text-align:center;
+  font-size: 36px;
+}
+em {
+  color:white;
+
+}
+.myDiv {
+  background-color: black;    
+  text-align: center;
+    font-size: 26px;
+}
+.myDiv1 {
+  background-color: lightgreen;    
+    font-size: 16px;
+  border: 10px solid white;
+}
+.myDiv2{
+    font-style: italic;
+      font-weight: normal;
+}
+.myDiv3 {
+  background-color: yellow;    
+    font-size: 16px;
+color: black;
+  border: 10px solid black;
+ padding: 10px;
+}
+th {
+  background-color: blue;    
+    font-size: 16px;
+ color:white;
+font-style: bold;
+  border: 1px solid black;
+}
+tr {
+  background-color: white;    
+    font-size: 16px;
+ color:black;
+font-family: bold;
+  border: 1px solid black;
+text-align:center;
+}
+table
+{
+ border: 1px solid black;
+}
+a:link {
+color: white;
+text-decoration: none;
+}
+a:visited {
+color: white;
+}
+a:hover {
+text-decoration: underline;
+}

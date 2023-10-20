@@ -1,0 +1,75 @@
+<!doctype HTML>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <title>Testsida</title>
+    </head>
+    <body>
+        <h1>Inlämningsuppgift 3</h1>
+	
+<form action="http://webshare.mah.se/tszagh/response.php" method="get">
+<fieldset>
+<legend>Kontaktuppgifter:</legend>
+Name: <input type="text" name="name" required> <br>
+Ålder: <input type="number" name="email" required><br>
+</fieldset>
+
+<fieldset>
+<legend>Din besök på blomstermålabladet:</legend>
+  <label>
+    <input type="radio" name="besök" value="Varje dag" required>
+  Varje dag
+  </label><br>
+
+  <label>
+    <input type="radio" name="besök" value="Varannan dag">
+    Varannan dag
+  </label><br>
+
+  <label>
+    <input type="radio" name="besök" value="Varje Vecka">
+    Varje Vecka
+  </label><br>
+
+<p> Vilka delar av blomstermålabladet brukar du besöka? </p>
+<input type="checkbox" name="Nyheter">Nyheter<br>
+<input type="checkbox" name="Utrikes">Utrikes<br>
+<input type="checkbox" name="Inrikes">Inrikes<br>
+<input type="checkbox" name="Sport">Sport<br>
+<input type="checkbox" name="Skvaller">Skvaller<br>
+<input type="checkbox" name="Väder">Väder<br>
+<input type="checkbox" name="Övrigt">Övrigt<br>
+</fieldset>
+
+
+<fieldset>
+<legend>Vinn en T-shirt!</legend>
+
+<p> Ni har möjligheten att vinna en T-shirt om ni fyller i följande information:
+
+<p> Bästa med Blomstermålabladet: </p>
+<input type="text" name="Bäst"><br>
+<p> Sämsta med Blomstermålabladet: </p>
+<input type="text" name="Sämst"><br>
+
+<p> </p>
+Epost: <input type="email" name="Övrigt"> <br>
+
+<label for="Storlek">Storlek:</label>
+
+<select name="Storlek" id="Storlek">
+  <option value="XS">XS</option>
+  <option value="S">S</option>
+  <option value="M">M</option>
+  <option value="L">L</option>
+  <option value="XL">XL</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Skicka/Återställ</legend>
+<input type="submit"> <input type="reset">
+</fieldset>
+</form>
+    </body>
+</html>
